@@ -14,5 +14,15 @@ A simple machine learning web app to classify SMS messages as **spam** or **ham*
 
 ---
 
+🧠 How It Works
+The model is a Naive Bayes classifier trained on the SMS dataset.
+The text is converted into numerical features using CountVectorizer.
+It predicts whether a message is spam based on word patterns.
+
+---
+
+📌 Example
+Input: "Congratulations! You've won a $1000 Walmart gift card. Click here to claim."
+Output: SPAM
 
 
